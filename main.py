@@ -9,7 +9,7 @@ app.config['DEBUG'] = True
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'cowsay Hello World!'
+    return 'cowsay Hello Worlds!'
 
 
 @app.errorhandler(404)
