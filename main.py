@@ -11,10 +11,10 @@ def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World!'
 
-@app.route('/add/<string:newString>')
-def add():
+@app.route('/add/<string:newstring>')
+def add(newstring):
     """Return a friendly HTTP greeting."""
-    return '# ' + newString
+    return '# ' + newstring
 
 
 @app.errorhandler(404)
